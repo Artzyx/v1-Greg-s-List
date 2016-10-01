@@ -3,6 +3,7 @@ body * {
 }
 main {
 	margin-left: 120px;
+
 }
 .navbox {
 	padding-left: 20px;
@@ -22,8 +23,10 @@ h1 {
 
 
 }
-nav ul {
+ul	{
 	list-style: none;
+}
+nav ul {
 	display: inline-block;
 	padding-right:20px;
 	font-weight: bolder;
@@ -57,4 +60,8 @@ img	{
 	position: relative;
 	top: 12px;
 	
+}
+
+main ul li {
+	padding-bottom: 20px;
 }
