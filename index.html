@@ -10,31 +10,38 @@
 	
 </head>
 <body>
-	<nav class="navbox">
-	<h1>Greg's List</h1>
-	<ul>
-		<li><a href="https://www.facebook.com">Post</a></li>
-		<li><a href="https://www.google.com">Account</a></li>
-	</ul>
+	<nav>
+		<h1>Greg's List</h1>
+		<ul>
+			<li><a href="https://www.facebook.com">Post</a></li>
+			<li><a href="https://www.google.com">Account</a></li>
+		</ul>
 	</nav>
 <main>
 	<input type="text" name="Search" placeholder="Search software jobs">
 	<img src="magnifying-glass.png" alt="magnifying-glass">
+	
+	<ul id="pagination">
+		<li><a href="https://www.google.com" class="pagination">&lt; prev</a></li>
+		<li><span class="pagination">1 to 100 of 179</span></li>
+		<li><a href="https://www.google.com" class="pagination">next &gt;</a></li>		
+	</ul>
+
 	<ul>
 		<li>
 		<time datetime="2016-06-22">June 22</time>
 		<a href="https://www.google.com">Technical Project Manager</a>
-		Midtown East
+		<span class="locations">Midtown East</span>
 		</li>
 		<li>
 			<time datetime="2016-06-21">June 21</time>
 			<a href="https://www.google.com">Frontend Developer</a>
-			SoHo
+			<span class="location">SoHo</span>
 		</li>
 		<li>
 			<time datetime="2016-06-20">June 20</time>
 			<a href="https://www.gooogle.com">Senior Python Developer / Cofounder</a>
-			Flatiron
+			<span class="location">Flatiron</span>
 		</li>
 	</ul>
 
